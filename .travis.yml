@@ -16,4 +16,4 @@ deploy:
   bucket: com-cranstonide-share # Your S3 bucket
   skip_cleanup: true # Skip cleanup, or Travis will remove your .pdf files
   local_dir: output # The complete contents of this directory will be uploaded
-  upload-dir: sample-latex-project/ # S3 bucket prefix (directory)
+  upload-dir: sample-latex-project # S3 bucket prefix (directory)
