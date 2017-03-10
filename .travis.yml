@@ -13,7 +13,7 @@ deploy:
   provider: s3
   access_key_id: $AWS_KEY_ID # Use environment variables for security
   secret_access_key: $AWS_SECRET_KEY # Use environment variables for security
-  bucket: com-cranstonide-share # Your S3 bucket
+  bucket: us-west-2-com-cranstonide-share # Your S3 bucket
   skip_cleanup: true # Skip cleanup, or Travis will remove your .pdf files
   local_dir: output # The complete contents of this directory will be uploaded
   upload-dir: sample-latex-project # S3 bucket prefix (directory)
